@@ -1,0 +1,8 @@
+Переведено сервисом «Яндекс.Переводчик»  http://translate.yandex.ru
+
+https://yandex.ru/dev/translate/
+https://yandex.ru/dev/translate/doc/dg/concepts/design-requirements-docpage/
+https://yandex.ru/dev/translate/doc/dg/reference/getLangs-docpage/
+https://yandex.ru/dev/translate/doc/dg/reference/detect-docpage/
+https://yandex.ru/dev/translate/doc/dg/reference/translate-docpage/
+https://yandex.ru/blog/webmaster-api/112

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta https://yandex.ru/dev/translate/doc/dg/concepts/design-requirements-docpage/> 
+	<meta Переведено сервисом «Яндекс.Переводчик» http://translate.yandex.ru> 
+	<title>YaTranslate</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="icon" href="./img/icon.png">
+</head>
+
+<body>
+	<div class="form">
+		<h1 class="form_title"><a href="http://translate.yandex.ru" target=»_blank>YaПереводчик</a></h1>
+		<div id="text_input" class="text">
+			<h3>Текст для перевода:</h3>
+			<div class="select">
+				<select class="turnintodropdown" name="lang-input" id="lang-input" class="lang-input"></select>
+			</div>
+			<div class="form_grup">
+				<input class="form_input" name="input" id="input" cols="30" rows="10"
+					placeholder="Введите текст"></input>
+			</div>
+		</div>
+		<div id="text_output" class="text">
+			<h3>Результат перевода:</h3>
+			<div class="select">
+				<select name="lang-output" id="lang-output" class="lang-output"></select>
+			</div>
+			<div class="form_grup">
+				<output class="form_input form_output" name="output" id="output" cols="30" rows="10" disabled></output>
+			</div>
+		</div>
+		<hr>
+		<h3 class="yandex"><a href="http://translate.yandex.ru" target=»_blank>Переведено сервисом «Яндекс.Переводчик»</a></h3>
+	</div>
+	<script src="./js/main.js" defer></script>
+</body>
+
+</html>
